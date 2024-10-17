@@ -16,7 +16,7 @@
 </head>
 <body>
  <!-- header -->
- <header class="text-dark position-fixed w-100" style="backdrop-filter: blur(20px);background-color: transparent;z-index: 1;">
+ <header class="text-dark position-fixed w-100" style="backdrop-filter: blur(10px);background-color: transparent;z-index: 1;">
   <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand ms-5" href="#">
           <img src="image/logo.png" alt="Logo" style="height: 50px;">
@@ -25,21 +25,32 @@
           <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse ms-5" id="navbarNav">
-          <ul class="navbar-nav mr-auto fw-bold text-success">
+          <ul class="navbar-nav mr-auto fw-bold fs-5 text-success">
               <li class="nav-item">
-                  <a class="nav-link text-success" href="index.html">Home</a>
+                <a class="nav-link text-primary" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="text-success bi bi-house-door-fill" viewBox="0 0 16 16" style="vertical-align: baseline;">
+                  <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+                </svg> Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link text-success" href="#About">About</a>
+                  <a class="nav-link text-primary" href="#About"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="text-success bi bi-file-person" viewBox="0 0 16 16" style="vertical-align: baseline;">
+                    <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                    <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                  </svg> About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link text-success" href="#Projects">Projects</a>
+                  <a class="nav-link text-primary" href="#Projects"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="text-success bi bi-lightning-charge-fill" viewBox="0 0 16 16" style="vertical-align: baseline;">
+                    <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
+                  </svg> Projects</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link text-success" href="#services">Services</a>
+                  <a class="nav-link text-primary" href="#services"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="text-success bi bi-tools" viewBox="0 0 16 16" style="vertical-align: baseline;">
+                    <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z"/>
+                  </svg> Services</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link text-success" href="#contact">Contact</a>
+                  <a class="nav-link text-primary" href="#contact"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="text-success bi bi-person-lines-fill" viewBox="0 0 16 16" style="vertical-align: baseline;">
+                    <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
+                  </svg> Contact</a>
               </li>
           </ul>
           <a class="btn btn-primary me-5" href="login.html"><i class="bi bi-box-arrow-in-right"></i> Log In</a>
